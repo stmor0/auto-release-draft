@@ -1,11 +1,9 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
-inputs:
-  milliseconds: # change this
-    required: true
-    description: 'input description here'
-    default: 'default value if applicable'
+name: 'Auto release draft'
+description: 'Create a draft template '
+author: 'Me'
+outputs:
+  release-url:
+    descritpion: 'The URL of the github release that was drafted'
 runs:
   using: 'node12'
   main: 'dist/index.js'
