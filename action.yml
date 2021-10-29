@@ -3,7 +3,7 @@ description: 'Create a draft template '
 author: 'Me'
 outputs:
   release-url:
-    descritpion: 'The URL of the github release that was drafted'
+    description: 'The URL of the github release that was drafted'
 runs:
   using: 'node12'
   main: 'dist/index.js'
